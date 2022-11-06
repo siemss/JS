@@ -1,26 +1,28 @@
-<html>
+<textarea cols="150" rows="28" scrolling="no" readonly>
+<!-- Michał Pstrągowski 3F -->
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 13</title>
+</head>
 <body>
-<textarea readonly=true rows=25 cols=150>
-<html>
-<meta  name="author" content="Michał Pstrągowski">
-<body>
-<div style="color:red;font-size:40px;">
-<script language="JavaScript">
-var liczba1=prompt("A=","");
-var liczba2=prompt("B=","");
-var suma;
-var a=parseFloat(liczba1);
-var b=parseFloat(liczba2);
-var l1 = a*a*a;
-var l2 = 3*(a*a)*b;
-var l3 = 3*a*(b*b);
-var l4 =b*b*b;
-document.write("Wczytane liczby: A="+a+" B="+b+"<br>");
-document.write("("+a+"+"+b+")^3="+a+"^3+3*(("+a+")^2)*("+b+")+"+"3*("+a+")*(("+b+")^2)+"+b+"^3="+l1+"+"+l2+"+"+l3+"+"+l4+"="+(l1+l2+l3+l4));
-</script>
-</div>
+<div style="color:navy;font-size:83px;">
+    <script language="JavaScript">
+    var liczba1=prompt("A=","");
+    var liczba2=prompt("B=","");
+    var a_pst=parseFloat(liczba1);
+    var b_pst=parseFloat(liczba2);
+    var wynik1=(a_pst*a_pst*a_pst);
+    var wynik2=(3*((a_pst)*(a_pst))*(b_pst));
+    var wynik3=(3*(a_pst)*((b_pst)*(b_pst)));
+    var wynik4=(b_pst*b_pst*b_pst);
+    document.write("("+a_pst+" + "+b_pst+" )^3="+a_pst+"^3 + 3*(("+a_pst+")^2)*("+b_pst+") + 3*("+a_pst+")*(("+b_pst+")^2) + "
+    + b_pst+"^3="+wynik1+"+"+wynik2+"+"+wynik3+"+"+wynik4+"="+(wynik1+wynik2+wynik3+wynik4));
+    </script>
+</div>  
 </body>
 </html>
 </textarea>
-</body>
-</html>
