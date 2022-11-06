@@ -1,0 +1,20 @@
+zadanie 13a
+
+Dany jest trójk¹t prostok¹tny. Wczytaæ przeciwprostok¹tn¹ c_pst , oraz przeciwprostok¹tn¹ b_pst.
+Wykonaæ wypisaæ wczytane dane dwa miejsca po przecinku z jednostk¹ cm. Wielkoœæ 13mm kolor fioletowy
+
+
+Obliczyæ przeciwprostok¹tn¹ (2 miejsca po przecinku jednostka)
+
+
+Obliczyæ Obwód z jednostk¹
+
+Obliczyæ pole z jednostk¹
+
+Obliczyæ wysokoœci z jednostkami
+
+K¹ty trójk¹a wra¿one w stopniach
+
+Wszystkie funkcje trygonometryczne(3 miejsca po przecinku)
+
+U¿yj modu³u .MatH

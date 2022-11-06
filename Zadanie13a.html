@@ -1,0 +1,33 @@
+<html>
+<body>
+	<div style="color:purple;font-size:13mm;">
+	<script language="JavaScript">
+	var liczba1=prompt("c=","");
+	var liczba2=prompt("b=","");
+	var suma;
+	var c_pst=parseFloat(liczba1);
+	var b_pst=parseFloat(liczba2);
+
+var	a_pst=Math.sqrt(Math.pow(c_pst,2)-Math.pow(b_pst,2));
+	
+	document.write("c="+c_pst.toFixed(2)+" cm"+"<br>");
+	document.write("b="+b_pst.toFixed(2)+" cm"+"<br>");
+	document.write("a="+a_pst.toFixed(2)+" cm"+"<br>");
+	
+	var h1=a_pst;
+	var h3=(a_pst*b_pst)/c_pst;
+	
+	document.write("h3="+h3_pst.toFixed(2)+" cm"+"<br>");
+	
+	sin_alfa=b_pst/c_pst;
+	
+		document.write("sin_alfa="+sin_alfa_pst.toFixed(3)+"<br>");
+	
+	alfa=Math.asin(b_pst/c_pst)*180/Math.PI);
+	
+	document.write("alfa="+alfa_pst.toFixed(3)+"<br>");
+	
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<html>
+<body>
+<div style="color:red;font-size:50px;">
+<script language="JavaScript">
+var liczba1=prompt("dzień 1 =","");
+var liczba2=prompt("dzień 2 =","");
+var ile_secund_pst;
+var a_pst=parseFloat(liczba1);
+var b_pst=parseFloat(liczba2);
+if(isNaN(a_pst)||isNaN(b_pst))
+{
+document.write("zła liczba!");
+}
+else
+{
+	ile_secund_pst = (a_pst-b_pst)*24*3600;
+	
+	if(ile_secund_pst<0)
+	{
+	ile_secund_pst*=-1;
+	}
+	document.write("dzień 1 : " + a_pst +"<br>");
+	document.write("dzień 2 : " + b_pst +"<br>");
+	document.write("Liczba sekund: " + ile_secund_pst +"s" +"<br>");
+}
+</script>
+</div>
+</body>
+</html>
